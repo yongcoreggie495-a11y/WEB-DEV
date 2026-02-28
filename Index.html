@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+     body{
+            background:linear-gradient(rgb(37, 38, 38), rgb(9, 19, 107));
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+     }
+       .navclass{
+        text-decoration: none;
+        background-color: black;
+        color: azure;
+        padding:7px;
+        font-size: 20px;
+        border-radius:5px;
+        transition: background-color 0.25s;
+       }
+       .navclass:hover{
+        background-color: rgb(37, 130, 237);
+       }
+       .navcontainer{
+        position: absolute;
+        top:20px;
+        left:570px;
+       }
+       .audio{
+        position: absolute;
+        top: 400px;
+        left: 945px;
+       }
+        h1{
+            text-align:center;
+            color: rgb(52, 109, 152);
+            font-style: italic;
+             text-shadow: 4px -4px 3px  rgb(17, 17, 17);
+        }
+        img{
+            height:200px;
+            width:205px;
+            border-radius: 110px;
+            position: absolute;
+            bottom: 320px;
+            left:990px;
+            box-shadow:4px -3px 5px  rgb(17, 17, 17) ;
+        }
+       
+        p{
+          transition: color 0.25s;
+          font-size: 25px;
+          position: absolute;
+          top:310px;
+          left:1000px;
+        }
+        p:hover{
+            color:aqua;
+        }
+         .video-box {
+        position:absolute;
+        left:20px;
+        overflow: hidden;
+        box-shadow: 0px 0px 5px black;
+        border-radius: 30px;
+        width:800px;
+        }
+        .video-box video{
+            display:block;
+           width:100%;
+           height:100%;
+        }
+    </style>
+</head>
+<body>
+     <div class="navcontainer">
+    <nav>
+        <a href="Index.html" id="home" class="navclass">Home</a>
+        <a href="About.html" id="about" class="navclass">About</a>
+        <a href="Contact.html" id="contact" class="navclass">Contact</a>
+    </nav>
+    </div>
+   <br>
+   <h1>Welcome to homepage!</h1>
+  
+  <div class="video-box">
+   <video src="ETHANNE LEOMAR P. CASQUEJO REGGIE P. YONGCO (1).mp4" height="500" width="800" controls></video>
+   </div>
+       <div class="audio">
+    <audio src="7451ff27-7717-45b0-9800-2dbcf0cc8f5e.mp3" controls></audio>
+    </div>
+      <img src="051cde77-fa11-4ecd-9815-36f86fffd6ad.jpg">
+
+      <p id="name"><strong>Reggie M. Yongco</strong></p>
+</body>
+</html>
